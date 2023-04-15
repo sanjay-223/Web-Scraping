@@ -1,4 +1,4 @@
 # Web-Scraping
 This respository containing files related to Web Scraping using Python.
 
-This programs use Selenium, BeautifulSoup and Requests libraries.
+These programs use Selenium, BeautifulSoup and Requests libraries.
