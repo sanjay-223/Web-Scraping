@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
-import logging
 from selenium.webdriver.remote.remote_connection import LOGGER
 from pathlib import Path
 import os
@@ -11,10 +10,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-
-LOGGER.setLevel(logging.CRITICAL)
-#logger = logging.getLogger(__name__)
-#logger.setLevel(logging.CRITICAL)
 website = 'https://www.adamchoi.co.uk/overs/detailed'
 path = 'C:/Program Files/chromedriver_win32/chromedriver.exe'
 option= Options()
@@ -90,6 +85,3 @@ for c in country:
     scrape(c)
 
 driver.quit()
-
-
-
